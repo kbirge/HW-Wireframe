@@ -1,0 +1,74 @@
+.wrapper{
+    width:700px;
+    background: gray;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+}
+
+.heading{
+    height:50px;
+    background: lightgray;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:30px;
+    background:lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.section{
+    min-height: 50px;
+    background: lightgray;
+    padding: 10px;
+    text-align: center;
+    width:250px;
+    float: left;
+}
+
+.aside{
+    margin-bottom: 10px;
+    min-height: 70px;
+    background: lightgray;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    float: right;
+}
+
+.article{
+    clear: both;
+    height:10px;
+    background:gray;
+    padding: 30px;
+    text-align: center;
+    width:200px;
+}
+
+.h1{
+    height:15px;
+    background: lightgray;
+    text-align: center;
+    width:150px;
+}
+
+.p{
+    height:15px;
+    background: lightgray;
+    text-align: center;
+    width:150px;
+}
+
+.footer{
+    clear: both;
+    height:50px;
+    background:lightgray;
+    padding: 30px;
+    text-align:center;
+}
