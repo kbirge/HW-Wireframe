@@ -3,6 +3,7 @@
     background: gray;
     margin: 0 auto 0 auto;
     padding: 10px;
+    position: relative;
 }
 
 .heading{
@@ -10,8 +11,7 @@
     background: lightgray;
     padding: 20px;
     text-align: center;
-
-
+    margin-bottom: 10px
 }
 
 .nav{
@@ -21,6 +21,7 @@
     background:lightgray;
     padding: 10px;
     text-align: center;
+  
 }
 
 .section{
@@ -30,6 +31,9 @@
     text-align: center;
     width:250px;
     float: left;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .aside{
@@ -39,16 +43,20 @@
     padding: 10px;
     text-align: center;
     width: 250px;
-    float: right;
+    position: absolute;
+    top: 184px;
+    right: 10px;
+
 }
 
 .article{
     clear: both;
-    height:10px;
     background:gray;
     padding: 30px;
     text-align: center;
-    width:200px;
+    margin: auto;
+    width: 180px;
+    margin-top: 10px;
 }
 
 .h1{
@@ -56,6 +64,8 @@
     background: lightgray;
     text-align: center;
     width:150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .p{
